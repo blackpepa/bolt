@@ -1,5 +1,5 @@
 {
-  "name": "bolt-sass",
+  "name": "Bolt",
   "version": "1.0.0",
   "description": "Página para la agencia digital Bolt.",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
 		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
   },
-  "author": "",
+  "author": "Cecilia Tangir",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
