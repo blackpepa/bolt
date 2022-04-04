@@ -6,6 +6,7 @@ header{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
     h1{
         text-align: $textCenter;
@@ -17,10 +18,11 @@ header{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
         p{
             text-align: $textCenter;
-            font-size: $textXl;
+            font-size: $textMd;
         }
 }
 
@@ -29,6 +31,7 @@ header{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
 }
 #clientes{
@@ -36,6 +39,7 @@ header{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
         img:hover{
                 transform: translate(0px, -12px);
@@ -50,16 +54,23 @@ header{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
-        p{
-            font-size: $textMD;
-            text-align: $textJust;
+        h3{
+            font-family: $titleFont;
+            text-align: $textCenter;
+            text-transform: uppercase;
         }
+            p{
+                font-size: $textMD;
+                text-align: $textCenter;
+            }
 }
 #formulario{
     h2{
         font-family: $titleFont;
         text-align: $textCenter;
+        text-transform: uppercase;
     }
         p{
             text-align: $textCenter;

@@ -3,6 +3,18 @@
   transform: translate(0px, -12px);
   cursor: pointer; }
 
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 100%; }
+  h2 {
+    font-size: 2.5rem; }
+  h3 {
+    font-size: 2rem;
+    text-align: center; }
+  p {
+    font-size: 1rem;
+    text-align: center; } }
+
 #botonera {
   background-color: rgba(250, 36, 36, 0.75); }
   #botonera img {
@@ -20,13 +32,22 @@
     color: #f5eeee;
     background-size: 100% 2px; }
 
+@media only screen and (max-width: 595px) {
+  #botoneraMob {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; } }
+
 body {
   background-color: rgba(228, 228, 228, 0.75);
   overflow-x: hidden; }
 
 header h2 {
   font-family: "Electrolize";
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 header h1 {
   text-align: center; }
@@ -35,22 +56,25 @@ header h1 {
   background: linear-gradient(to right, violet, cyan); }
   #servicios h2 {
     font-family: "Electrolize";
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   #servicios p {
     text-align: center;
-    font-size: 3rem; }
+    font-size: 2rem; }
 
 #trabajos {
   background-color: rgba(39, 199, 211, 0.5); }
   #trabajos h2 {
     font-family: "Electrolize";
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
 
 #clientes {
   background: linear-gradient(to right, violet, cyan); }
   #clientes h2 {
     font-family: "Electrolize";
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   #clientes img:hover {
     transform: translate(0px, -12px);
     cursor: pointer; }
@@ -59,14 +83,20 @@ header h1 {
   background-color: rgba(39, 199, 211, 0.5); }
   #nosotros h2 {
     font-family: "Electrolize";
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
+  #nosotros h3 {
+    font-family: "Electrolize";
+    text-align: center;
+    text-transform: uppercase; }
   #nosotros p {
     font-size: 1.8rem;
-    text-align: justify; }
+    text-align: center; }
 
 #formulario h2 {
   font-family: "Electrolize";
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 #formulario p {
   text-align: center;
